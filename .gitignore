@@ -37,6 +37,9 @@ secured_pack_for*
 *.png
 *.gif
 
+# model files #
+*.pb
+
 # other
 .DS_Store
 ~*
