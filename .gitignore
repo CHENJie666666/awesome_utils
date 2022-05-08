@@ -40,6 +40,9 @@ secured_pack_for*
 # model files #
 *.pb
 
+# text files #
+*.txt
+
 # other
 .DS_Store
 ~*
