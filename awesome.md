@@ -28,6 +28,38 @@ python mp4_to_mp3.py -s './mp4_dir'
 
 
 
+### 2. 文本转语言
+
+#### pyttsx3
+
+使用windows自带语音包实现文本转语音（tts）功能
+
+- 安装包
+
+```shell
+pip install pyttsx3
+```
+
+- 安装语音包
+
+设置-时间与语言-语音-管理语言-添加语音
+
+添加语音后，可将INPUT_LANG修改为自己电脑上的语音包
+
+- 文本转语言
+
+```shell
+python text_to_speech.py -t '你好' -l 'zh-cn' -v 0.6 -r 150
+```
+
+- 文件转语音文件
+
+```shell
+python text_to_speech.py -t './a.txt' -l 'zh-cn' -s 'a.mp3'
+```
+
+
+
 ## 图像处理
 
 ### 1. 图像超分
