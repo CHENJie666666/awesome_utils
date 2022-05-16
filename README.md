@@ -28,7 +28,7 @@ python mp4_to_mp3.py -s './mp4_dir'
 
 
 
-### 2. 文本转语言
+### 2. 文本转语音
 
 #### pyttsx3
 
@@ -57,6 +57,8 @@ python text_to_speech.py -t '你好' -l 'zh-cn' -v 0.6 -r 150
 ```shell
 python text_to_speech.py -t './a.txt' -l 'zh-cn' -s 'a.mp3'
 ```
+
+- pyttsx3官方文档：[Using pyttsx3 — pyttsx3 2.6 documentation](https://pyttsx3.readthedocs.io/en/latest/engine.html)
 
 
 
